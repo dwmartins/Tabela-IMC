@@ -21,7 +21,7 @@ body{
 
 .calculador-imc{
     max-width: 400px;
-    min-width: 300px;
+    min-width: 380px;
     width: 60%;
     margin: 0 auto;
     padding: 10px;
@@ -63,10 +63,8 @@ form h1 {
     font-weight: 900;
 }
 
-form p {
-    font-size: 15px;
-    font-weight: 600;
-    margin: 5px 0;
+form label {
+    font-weight: 700;
 }
 
 form input {
@@ -76,6 +74,7 @@ form input {
     font-weight: 700;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.438);
+    margin-bottom: 8px;
 }
 
 form button {
@@ -95,4 +94,16 @@ form button:hover{
 
 #resultado {
     text-align: center;
+}
+
+.paragrafo-resultado {
+    background: #099210;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.bad {
+    background: #e44a4a;
+    padding: 10px;
+    font-weight: 700;
 }
